@@ -13,9 +13,6 @@ public class TestePolimorfismo {
         List<Martelo> caixaDeFerramentas = new ArrayList<>();
 
 
-        caixaDeFerramentas.add(new MarteloUnha("Aço Carbono", 0.600));
-        caixaDeFerramentas.add(new MarteloBorracha(0.450));
-        caixaDeFerramentas.add(new MarteloUnha("Ferro", 0.500));
 
         System.out.println("--- Testando o Polimorfismo na Caixa de Ferramentas ---");
 
